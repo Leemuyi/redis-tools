@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>redis-tools</name>
-    <description>redis-tools</description>
+    <description>Redis Web 管理工具</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -111,6 +111,11 @@
                         <version>${spring-restdocs.version}</version>
                     </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.0.0</version>
             </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
